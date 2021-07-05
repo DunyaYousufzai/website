@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>world</title>
+    <link rel="stylesheet" href="assets/reset.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="icon" href="assets/images/icon.png" type="image/x-icon">
+
+    <script type="text/javascript" src="assets/jquery.min.js"></script>
+
+    <!-- Fraction SLider Files-->
+    <link href="assets/fractionslider/css/fractionslider.css" rel="stylesheet" />
+    <script type="text/javascript" src="assets/fractionslider/jquery.fractionslider.js"></script>
+
+
+    <!-- WOW : http://mynameismatthieu.com/WOW/docs.html-->
+    <link rel="stylesheet" href="assets/wow/css/libs/animate.css" type="text/css">
+    <script type="text/javascript" src="assets/wow/dist/wow.min.js"></script>
+    <script>new WOW().init();</script>
+
+
+</head>
+<body>
+<div id="main">
+    <header>
+        <nav>
+            <div class="fwc" id="topMenu">
+                <ul>
+                    <li><a href="#top" class="active">Home</a></li>
+                    <li><a href="#row1">about us</a></li>
+                    <li><a href="#row2">service</a></li>
+                    <li><a href="#row3">sunshine's team</a></li>
+                    <li><a href="#row4">contact us</a></li>
+                    </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Slider -->
+    <section class="sliderWrapper" id="top">
+        <div class="fwc" id="slider">
+            <div class="slide">
+                <img data-position="150,650" data-in="topLeft" data-out="top" data-delay="100" src="assets/images/icon2.png"/>
+                <div class="slidetext" data-in="right" data-position="140,100" data-delay="300"> Sunshine is the best source for programming and web designing</div>
+                <div class="slidetext" data-in="right" data-position="200,100" data-delay="500">Experience the specialty with sunshine</div>
+                <div class="slidetext" data-in="right" data-position="260,100" data-delay="700">www.sunshine.com</div>
+            </div>
+            <div class="slide">
+                <img data-position="150,450" data-in="bottom" data-delay="200" src="assets/images/responsive.png" width="500px"/>
+                <img data-position="80,180" data-in="top" data-delay="100" src="assets/images/Webdesign.png" width="200px"/>
+                <div class="slidetext" data-in="right" data-position="300,80" data-delay="400">professional web design</div>
+                <div class="slidetext" style="transform: rotate(20deg)" data-in="right" data-position="390,80" data-delay="600">reactor designing</div>
+                <div class="slidetext" style="transform: rotate(-35deg)" data-in="bottom" data-position="370,280" data-delay="800">standard programming</div>
+            </div>
+            <div class="slide">
+                <div class="slidetext" data-in="top" data-position="200,100" data-delay="100">web design training courses</div>
+                <div class="slidetext" data-in="right" data-position="270,100" data-delay="300">experienced and profecient lecturer</div>
+                <div class="slidetext" data-in="bottom" data-position="340,100" data-delay="500">basic till advanced</div>
+                <img data-position="120,400" data-in="bottom" data-out="bottom" data-delay="500" src="assets/images/course.png" width="500px"/>
+            </div>
+        </div>
+    </section>
+    <script>
+          $('#slider').fractionSlider({
+              timeout : 5000 ,
+              speedIn : 1000,
+              pager:true,
+          });
+    </script>
+<!-- Row 1 : About 7Learn -->
+    <section class="rowContainer white" id="row1">
+        <div class="row fwc text-center">
+            <div class="title1">
+                <h2 class="wow bounceIn">about sunshine</h2>
+                <p class="lead wow fadeInUp">adjure the highest quality from us</p>
+            </div>
+            <div class="content1">
+                <div class="box1 wow fadeInUp" data-wow-offset="200" data-wow-delay="0ms">
+                    <img class="rotate" src="assets/images/picture.png" alt="Generic placeholder image">
+                    <h3>modality</h3>
+                    <p class="lead">A good plan executed now is better than a perfect plan next week.sunshine is the best site for you with best quality in learning </p>
+                </div>
+                <div class="box1 wow fadeInUp" data-wow-offset="200" data-wow-delay="200ms">
+                    <img class="rotate" src="assets/images/modares.png" alt="Generic placeholder image">
+                    <h3>Experienced lecturer</h3>
+                    <p class="lead">dunya yousufzai is the best,sober,vigilant computer scientist in the world,actually she is genuis</p>
+                </div>
+                <div class="box1 wow fadeInUp" data-wow-offset="200" data-wow-delay="400ms">
+                    <img class="rotate" src="assets/images/customer.png" alt="Generic placeholder image">
+                    <h3> customer orientation </h3>
+                    <p class="lead">Customer orientation is of ultimate importance to deliver value added products. There are 4 basic stages for customer orientation which starts with development</p>
+                </div>
+                <div class="box1  wow fadeInUp" data-wow-offset="100" data-wow-delay="0ms">
+                    <img class="rotate" src="assets/images/browser.png" alt="Generic placeholder image">
+                    <h3>creativity</h3>
+                    <p class="lead"> Creativity is the act of turning new and imaginative ideas into reality. Creativity is characterised by the ability to perceive the world in new ways, to find hidden patterns, to make connections between seemingly unrelated phenomena, and to generate solutions</p>
+                </div>
+                <div class="box1 wow fadeInUp" data-wow-offset="100" data-wow-delay="200ms">
+                    <img class="rotate" src="assets/images/price.png" alt="Generic placeholder image">
+                    <h3>suitable outlay</h3>
+                    <p class="lead">we perfer the cheapest way to learn web design and programming</p>
+                </div>
+                <div class="box1 wow fadeInUp" data-wow-offset="100" data-wow-delay="350ms">
+                    <img class="rotate" src="assets/images/support.png" alt="Generic placeholder image">
+                    <h3>vigorous backing</h3>
+                    <p class="lead">sunshine is the best site in the world, it does not need support of any other organization however will support you</p>
+                </div>
+            </div>
+            <div class="clear"></div>
+
+
+        </div>
+    </section>
+<!-- Row 2 : sunshine Products -->
+    <section class="rowContainer silver" id="row2">
+        <div class="row fwc">
+
+            <img class="left w50p wow bounceIn" src="assets/images/responsive.png" width="600"  data-wow-offset="300">
+            <div class="content2 right w50p  wow bounceInRight"  data-wow-offset="300">
+                <h3>reactive web design</h3>
+                <p>Reactive web design. Data can enable us to give priorities to site content and make it relevant to users’ needs. This kind of thinking is often subsumed under ‘responsive web design’ but I think it’s such a big and important subject that it needs its own label. Consequently I refer in my talks to something I’ve labelled reactive web design</p>
+            </div>
+            <div class="clear m30"></div>
+            <img class="right w50p wow bounceInUp"  data-wow-offset="200" src="assets/images/course.png" width="400">
+            <div class="content2 left w50p wow fadeInLeft"  data-wow-offset="300" >
+                <h3>programming courses</h3>
+                <p>if you really wanna learn something,find the best material through our site,then try to learn by urself,this site is coOl,it will be tedious to teach everything for you live, so guys cmon enchrich urself by oneself</p>
+                <p class="text-center m30">
+                    <a href="#" class="btn btn-green">nomination</a>
+                    <a href="#" class="btn btn-blue">periods</a>
+                </p>
+            </div>
+            <div class="clear"></div>
+
+        </div>
+    </section>
+ <!-- Row 3 : sunshine guider -->
+    <section class="rowContainer white" id="row3">
+        <div class="row fwc text-center">
+            <div class="title1">
+                <h2 class="wow bounceIn">Dunya yousufzai</h2>
+                <p class="lead wow fadeInUp">The foremost software engineer in the world</p>
+            </div>
+            <div class="content1">
+                <div class="box1 wow bounceIn" data-wow-offset="200" data-wow-delay="100ms">
+                    <img class="rotate" src="assets/images/pic6.jpg" alt="Generic placeholder image">
+                    
+                </div>
+                <div class="box1 wow bounceIn" data-wow-offset="200" data-wow-delay="260ms">
+                    <img class="rotate" src="assets/images/pic6.jpg" alt="Generic placeholder image">
+                    
+                </div>
+                <div class="box1 wow bounceIn" data-wow-offset="200" data-wow-delay="400ms">
+                    <img class="rotate" src="assets/images/pic6.jpg" alt="Generic placeholder image">
+                   
+                </div>
+            </div>
+                    <div class="clear"></div>
+       </div>
+
+    </section>
+
+    <!-- Row 3 :sunshine guider -->
+    <section class="rowContainer silver" id="row4">
+        <div class="row fwc">
+            <div class="left w50p wow fadeInDown" wow-data-offset="400" wow-data-delay="200ms">
+                <h3>leave a message</h3>
+                <form action="#" method="post">
+                    <input type="text" name="uname" placeholder="your name">
+                    <input type="text" name="email" placeholder="Email">
+                    <textarea name="msg" cols="30" rows="5" placeholder="Your message..."></textarea>
+                    <input type="submit" class="btn" value="sent">
+                    <input type="reset" class="btn btn-orange" value="reset">
+                </form>
+            </div>
+            <div class="right w50p wow fadeInRight" wow-data-offset="400" wow-data-delay="500ms">
+                <h3>contact info</h3>
+                <script type="text/javascript" src="http://www.webestools.com/google_map_gen.js?lati=29.625644&long=52.558100&zoom=17&width=500&height=250&mapType=normal&map_btn_normal=yes&map_btn_satelite=yes&map_btn_mixte=yes&map_small=yes&marqueur=yes&info_bulle="></script>
+                <div class="info">
+                    <span class="bold">phone num:</span><span> 093xxxxxxxxx</span><br>
+                    <span class="bold">Address:  </span><span> 3rd macrorayan,kabul,Afghanistan</span><br>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="social">
+                <p class="wow fadeIn" wow-data-offset="290"> follow us</p>
+                <ul class=" wow fadeIn" wow-data-offset="300">
+                    <li><a href="#"><img src="assets/images/facebook.png" alt="facebook"></a></li>
+                    <li><a href="#"><img src="assets/images/twitter.png" alt="twitter"></a></li>
+                    <li><a href="#"><img src="assets/images/google-plus.png" alt="google plus"></a></li>
+                    <li><a href="#"><img src="assets/images/youtube.png" alt="youtube"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </section>
+    <footer id="footer">
+        <p class="wow fadeInUp">MyWorld MySite MyWay</p>
+    </footer>
+</div>
+
+    <script src="assets/scripts.js"></script>
+</body>
+</html>
